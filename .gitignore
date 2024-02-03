@@ -2,7 +2,7 @@
 /dist
 /node_modules
 
-# Logs
+# Logs major
 logs
 *.log
 npm-debug.log*
