@@ -27,11 +27,13 @@ jobs:
     - name: Build Docker Image      
       run: |
         docker build -t lfosuna/docker-graphql:0.0.1 .
+        docker build -t lfosuna/docker-graphql:latest .
        
 
     - name: Push Docker Image      
       run: |
         docker push lfosuna/docker-graphql:0.0.1        
+        docker push lfosuna/docker-graphql:latest
         
         
 #    - name: Build the Docker image
